@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'XYModuleB/Classes/**/*'
   s.public_header_files = 'XYModuleB/Classes/*.h'
+  s.dependency 'XYCoreKit'
   
   # s.resource_bundles = {
   #   'XYModuleB' => ['XYModuleB/Assets/*.png']
