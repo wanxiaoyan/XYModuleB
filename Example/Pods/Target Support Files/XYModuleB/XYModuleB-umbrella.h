@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XY_BViewController.h"
 
 FOUNDATION_EXPORT double XYModuleBVersionNumber;
 FOUNDATION_EXPORT const unsigned char XYModuleBVersionString[];

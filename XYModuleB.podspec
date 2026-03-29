@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wanxiaodi3/XYModuleB'
+    s.homepage         = 'https://github.com/wanxiaoyan/XYModuleB.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wanxiaodi3' => 'wanxiaodi3@jd.com' }
-  s.source           = { :git => 'https://github.com/wanxiaodi3/XYModuleB.git', :tag => s.version.to_s }
+    s.author           = { 'wanxiaoyan' => 'wxy1002075730@163.com' }
+  s.source           = { :git => 'https://github.com/wanxiaoyan/XYModuleB.git', :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'XYModuleB/Classes/**/*'
+  s.public_header_files = 'XYModuleB/Classes/*.h'
   
   # s.resource_bundles = {
   #   'XYModuleB' => ['XYModuleB/Assets/*.png']
